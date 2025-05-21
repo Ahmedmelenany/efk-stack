@@ -20,3 +20,7 @@ Using Elasticsearch in conjunction with Kubernetes, allows it to reap benefits f
 - Load Balancing: Services can load-balance traffic to multiple pods.
 - Service Discovery: Services allow other applications to discover and communicate with your Elasticsearch cluster through a stable endpoint.
 
+### Ports used in ES
+
+- Port 9200 is used for all API calls over HTTP. This includes search and aggregations, monitoring and anything else that uses a HTTP request. All client libraries will use this port to talk to Elasticsearch
+- Port 9300 is a custom binary protocol used for communications between nodes in a cluster. For things like cluster updates, master elections, nodes joining/leaving, shard allocation
