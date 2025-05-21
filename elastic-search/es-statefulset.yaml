@@ -20,7 +20,7 @@ spec:
         ports:
         - containerPort: 9200 # This Port to let applications can communicate with ES 
           name: port1
-        - containerPort: 9300
+        - containerPort: 9300 # Internal communication between nodes
           name: port2
         env:
         - name: discovery.type
