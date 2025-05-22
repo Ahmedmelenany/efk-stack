@@ -1,7 +1,8 @@
-# ELK-Stack
+# EFK-Stack
 
-- Installing Elastic Search, LogStash and Kibana on Kuberentes Cluster
+- Installing Elastic Search, Fluentd and Kibana on Kuberentes Cluster
 
 ## Table of contents
 
 - [elastic-search](./elastic-search/README.md)
+- 
