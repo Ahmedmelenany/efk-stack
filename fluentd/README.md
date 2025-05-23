@@ -1,4 +1,4 @@
-# Install Fluentd un kubernetes
+# Install Fluentd on kubernetes
 
 - Fluentd is an open-source data collector designed for processing logs and events. It's highly flexible, allowing you to collect data from multiple sources, transform it as needed, and send it to various destinations.
 
