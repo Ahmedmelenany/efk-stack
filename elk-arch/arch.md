@@ -301,4 +301,8 @@ Kibana URL: https://kibana.example.com
 
 ---
 
+## Screenshots
+
+---
+
 **This README can be used as the baseline document to provision and configure a full production ELK cluster.**
